@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+  border : 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.grid {
+  width: 300px;
+}
+
+.grid > li {
+  float: left;
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background: grey;
+}
+
+.grid > li.clickedx {
+  background: transparent;
+  font-size: 400%;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.grid > li.clickedx:hover {
+  background: transparent;
+
+}
+.grid > li.clickedo {
+  background: transparent;
+  font-size: 400%;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.grid > li.clickedo:hover {
+  background: transparent;
+
+}
+
+.grid > li:hover{
+  background: yellow;
+}
+
+.grid > li.win {
+  color: white;
+  background: green;
+  font-size: 400%;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.grid > li.win:hover{
+  background: green;
+}
