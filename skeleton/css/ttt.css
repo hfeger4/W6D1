@@ -15,20 +15,20 @@ ul {
 
 
 .grid {
-  width: 300px;
+  width: 450px;
 }
 
 .grid > li {
   float: left;
-  width: 90px;
-  height: 90px;
+  width: 140px;
+  height: 140px;
   border: 5px solid black;
   background: grey;
 }
 
 .grid > li.clickedx {
   background: transparent;
-  font-size: 400%;
+  font-size: 600%;
   font-family: fantasy;
   font-weight: bold;
 }
@@ -39,7 +39,7 @@ ul {
 }
 .grid > li.clickedo {
   background: transparent;
-  font-size: 400%;
+  font-size: 600%;
   font-family: fantasy;
   font-weight: bold;
 }
@@ -56,7 +56,7 @@ ul {
 .grid > li.win {
   color: white;
   background: green;
-  font-size: 400%;
+  font-size: 600%;
   font-family: fantasy;
   font-weight: bold;
 }
