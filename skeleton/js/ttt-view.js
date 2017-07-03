@@ -21,6 +21,8 @@ class View {
     if (this.game.board.isOver()){
       $(".clicked" + mark).toggleClass("win");
       $(".grid").off();
+      let winner = this.game.board.winner();
+      $(".clicked" + winner).toggleClass("loser");
     }
   }
 
